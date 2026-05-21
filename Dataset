@@ -1,0 +1,19 @@
+The dataset used is HAM 10000 taken from Kaggle open source link 
+
+https://www.kaggle.com/datasets/kmader/skin-cancer-mnist-ham10000
+
+The dataset used in this research is the HAM10000 (Human Against Machine with 10,000 training images) dataset. It is a widely used benchmark dataset in the field of medical image analysis and skin cancer classification.
+The dataset consists of 10,015 dermoscopic images, which are categorized into seven distinct classes of skin diseases. These classes include:
+•	Actinic keratoses (akiec)
+•	Basal cell carcinoma (bcc)
+•	Benign keratosis-like lesions (bkl)
+•	Dermatofibroma (df)
+•	Melanoma (mel)
+•	Melanocytic nevi (nv)
+•	Vascular lesions (vasc) 
+
+
+Each image in the dataset is accompanied by metadata such as patient age, gender, and anatomical location of the lesion. This additional information helps in understanding the dataset distribution and analyzing patterns.
+The dataset is collected from multiple sources and clinical environments, ensuring diversity in terms of image quality and patient demographics. This diversity makes the dataset suitable for training robust machine learning models.
+However, one of the major challenges associated with the dataset is class imbalance. The melanocytic nevi (nv) class dominates the dataset, accounting for more than 66% of the total samples, while other classes such as dermatofibroma and vascular lesions have significantly fewer samples.
+To address this issue, preprocessing techniques such as data augmentation and class weighting are applied during model training. These techniques help in improving model performance for minority classes.
