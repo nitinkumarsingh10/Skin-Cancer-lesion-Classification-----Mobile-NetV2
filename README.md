@@ -63,8 +63,8 @@ The project follows the complete Deep Learning pipeline:
 # 📊 Dataset Information
 
 The dataset contains dermoscopic images of various skin lesions.
-The dataset used is HAM 10000 taken from Kaggle open source link
 
+The dataset used is HAM 10000 taken from Kaggle open source link
 https://www.kaggle.com/datasets/kmader/skin-cancer-mnist-ham10000
 
 Dataset Classes Include:
